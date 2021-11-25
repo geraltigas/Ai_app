@@ -1,0 +1,64 @@
+.Board{
+    display: flex;
+    flex-direction: row;
+    width: 368px;
+    height: 368px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    position: relative;
+    left: 2px;
+    top: 2px;
+    margin:0;
+}
+.showBoardBlock {
+    border: 1px solid #b2bec3;
+    width: 40px;
+    height: 40px;
+    margin: 2px;
+    padding: 0px;
+    display:flex;
+    justify-content:center;
+    align-items:center
+}
+.showBoardBlock img {
+    margin: 0px;
+    padding: 0px;
+    width: 35px;
+    height: 35px;
+}
+.buttonGroup{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    width: 183px;
+    top: 10px;
+    border-right: 3px solid #b2bec3;
+}
+.buttonGroup button {
+    width: 60px;
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+.buttonGroup form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    left: 10px;
+}
+.Display{
+    position: relative;
+    top: 20px;
+    width: 160px;
+    left:20px
+}
+.footContainer{
+    display: flex;
+    flex-direction: row;
+}
+.marginless{
+    padding: 0!important;
+    margin: 0!important;
+}
